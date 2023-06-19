@@ -1,0 +1,21 @@
+   flutter build appbundle
+   Run flutter build apk --split-per-abi
+   
+   dart pub  get global run rename --appname "الحضور"
+flutter pub get global run rename --appname "الحضور"
+flutter pub global run rename --appname "الحضور"
+flutter pub global activate rename
+
+com.alzawahed.attendance
+   flutter pub global run rename --bundleId com.alzawahed.attendance
+   Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10,000 days
+        for: CN=issa, OU=Unknown, O=Unknown, L=Riyadh, ST=Riyadh, C=SA
+Enter key password for <upload>
+        (RETURN if same as keystore password):
+Re-enter new password:
+[Storing D:\flutter\attend_emp\attend\android\upload-keystore.jks]
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore D:\flutter\attend_emp\attend\android\upload-keystore.jks -destkeystore D:\flutter\attend_emp\attend\android\upload-keystore.jks -deststoretype pkcs12".
+password :Django22@#
+keytool -genkey -v -keystore D:\flutter\attend_emp\attend\android\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
